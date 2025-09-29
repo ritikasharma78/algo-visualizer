@@ -5,3 +5,9 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+body {
+  background-color: #000; /* black */
+  color: #fff; /* optional: makes text white for contrast */
+  margin: 0; /* remove default body margin */
+  padding: 0;
+}
