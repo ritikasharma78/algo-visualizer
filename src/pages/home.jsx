@@ -60,7 +60,7 @@ export default function HomePage() {
       </div>
       
     </div>
- <div className="pt-10">
+ <div >
     <Footer/>
     </div>
     </>
