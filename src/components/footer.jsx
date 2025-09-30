@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="w-full mt-24 py-8 bg-black text-white border-t border-gray-800">
+    <footer className="w-full mt-20 py-8 bg-black text-white border-t border-gray-800">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-wrap items-center justify-center gap-8">
           {/* GitHub */}
