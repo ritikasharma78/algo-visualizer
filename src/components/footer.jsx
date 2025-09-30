@@ -2,31 +2,50 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="w-full mt-20 py-6 bg-white/10 backdrop-blur-md  border-white/20 text-white">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 gap-4">
-        
-        {/* Left Section */}
-        <p className="text-sm text-gray-300">
-          © {new Date().getFullYear()} Algorithm Visualizer. All rights reserved.
-        </p>
-
-        {/* Center Links */}
-        <div className="flex gap-6 text-sm">
-          <a href="#features" className="hover:text-yellow-400 transition">Features</a>
-          <a href="#about" className="hover:text-yellow-400 transition">About</a>
-          <a href="#contact" className="hover:text-yellow-400 transition">Contact</a>
-        </div>
-
-        {/* Right Section (Socials) */}
-        <div className="flex gap-4">
-          <a href="#" aria-label="GitHub" className="hover:text-yellow-400 transition">
-            <i className="fab fa-github text-lg"></i>
+    <footer className="w-full mt-24 py-8 bg-black text-white border-t border-gray-800">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="flex flex-wrap items-center justify-center gap-8">
+          {/* GitHub */}
+          <a 
+            href="https://github.com/ManasPG" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:text-gray-400 transition-colors"
+          >
+            <img 
+              src="/icons/github.png" 
+              alt="GitHub" 
+              className="w-6 h-6"
+            />
+            <span className="text-sm font-medium">GitHub</span>
           </a>
-          <a href="#" aria-label="Twitter" className="hover:text-yellow-400 transition">
-            <i className="fab fa-twitter text-lg"></i>
+
+          {/* LinkedIn */}
+          <a 
+            href="https://linkedin.com/in/ritikasharma11" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:text-gray-400 transition-colors"
+          >
+            <img 
+              src="/icons/linkedin.png" 
+              alt="LinkedIn" 
+              className="w-6 h-6"
+            />
+            <span className="text-sm font-medium">LinkedIn</span>
           </a>
-          <a href="#" aria-label="LinkedIn" className="hover:text-yellow-400 transition">
-            <i className="fab fa-linkedin text-lg"></i>
+
+          {/* Email */}
+          <a 
+            href="mailto:sharma.ritika0504@email.com" 
+            className="flex items-center gap-2 hover:text-gray-400 transition-colors"
+          >
+            <img 
+              src="/icons/email.png" 
+              alt="Email" 
+              className="w-5 h-5"
+            />
+            <span className="text-sm font-medium">Email</span>
           </a>
         </div>
       </div>
